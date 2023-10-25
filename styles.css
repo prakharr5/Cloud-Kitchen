@@ -1,0 +1,199 @@
+body {
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;  Vertically center the content */
+  align-items: center;
+  /*overflow: hidden;*/
+  background: #000;
+  color: white;
+}
+p {
+  background: black;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+header {
+  color: white;
+  border-bottom: 2px solid #ca0000;
+  width: 90%;
+  display: flex;
+  flex-direction: column; /* Center header content vertically */
+  text-align: center;
+  z-index: 2;
+}
+
+.links a {
+  color: white; /* Set the text color to white */
+  text-decoration: none; /* Remove underline */
+}
+.link {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 10px; /* Add rounded corners to the container */
+  /* Add a dark red box shadow */
+}
+.image-container img {
+  max-width: 250px;
+  height: auto;
+  margin-right: 30px;
+
+  border-radius: 20px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  box-shadow: 0px 4px 100px 0px rgba(113, 0, 0, 0.25);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+.container img {
+  max-width: 40%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 20px;
+
+  border-radius: 20px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  backdrop-filter: blur(50px);
+}
+
+.lastline p {
+  margin-bottom: 20px; /* Add space after the "select your plan" link */
+}
+
+.lastline a {
+  color: white; /* Set the text color to white */
+  text-decoration: none;
+}
+/* Your existing CSS code */
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 0 0 20px 8px rgba(37, 7, 7, 0.6);
+}
+.button:hover {
+  background-color: darkred; /* Change the background color on hover */
+}
+.button:active {
+  transform: scale(0.95); /* Scale down the button when clicked */
+  transition: transform 0.2s; /* Add a smooth transition effect */
+}
+.animate-link:hover {
+  color: red; /* Change the text color on hover */
+}
+.white-rectangle {
+  background-color: rgb(0, 0, 0); /* Set the background color to white */
+  width: 90%; /* Adjust the width as needed */
+  height: 77%; /* Adjust the height as needed */
+  border-radius: 20px;
+  box-shadow: 0 0 30px 8px rgba(139, 0, 0, 0.6);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.white-rectangle h1 {
+  text-align: center; /* Center the text horizontally */
+  /*margin: 0; /* Remove default margin to center vertically */
+}
+.white-rectangle img {
+  width: 200px;
+}
+
+.black-rectangle {
+  background-color: rgb(255, 255, 255); /* Set the background color to black */
+  margin-top: 28%;
+  width: 900px; /* Set the width of the black rectangle */
+  height: 200px; /* Set the height of the black rectangle */
+  position: absolute; /* Position it within the white rectangle */
+  border-radius: 20px;
+  box-shadow: 0 0 10px 5px rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
+.black-rectangle h2 {
+  text-align: center; /* Center the text horizontally */
+  /*margin: 0; /* Remove default margin to center vertically */
+}
+.black-rectangle h4 {
+  text-align: center;
+}
+section h1 {
+  color: #fff;
+  text-shadow: 0px 4px 100px rgba(255, 4, 4, 0.25);
+  font-family: Merienda;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+section h3 {
+  color: #fff;
+  text-shadow: 0px 4px 100px rgba(255, 0, 0, 0.25);
+  font-family: Kaushan Script;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.imgbackcart {
+  position: absolute;
+  top: 0; /* Align to the top of the page */
+  display: flex;
+  width: 100%;
+  z-index: 1;
+  align-items: center;
+}
+
+.imgbackcart img {
+  width: 1530px;
+  height: 730px;
+  flex-shrink: 0;
+}
+.rectangle {
+  background-color: black;
+  width: 60%;
+  height: 40%;
+  align-items: center;
+  z-index: 2;
+  margin-top: 10%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 5px rgb(255, 255, 255);
+}
+.rectangle h2 {
+  margin-left: 20px;
+}
+.rectangle h3 {
+  margin-left: 20px;
+}
+.rectangle a {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+}
+.rectangle p {
+  position: absolute;
+  right: 21%; /* Adjust the left position as needed */
+  margin-top: 14px;
+}
