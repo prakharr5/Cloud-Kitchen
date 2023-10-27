@@ -1,0 +1,56 @@
+/* Add a black background to the entire page */
+body {
+    background-color: black;
+    color: white; /* Set text color to white for better visibility on a black background */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: left; /* Center items horizontally */
+    text-align: center; /* Center text horizontally */
+    padding: 20px; /* Add some padding to the body */
+    font-family: Arial, sans-serif; /* Use a common sans-serif font */
+}
+
+/* Center the "MENU" heading */
+h1 {
+    background-color: #333; /* Add a background color for better visibility */
+    color: white; /* Text color for the heading */
+    padding: 10px; /* Add some padding for spacing */
+    border-radius: 50%; /* Make the heading circular */
+    width: 100px; /* Set a fixed width for the circular heading */
+    height: 100px; /* Set a fixed height for the circular heading */
+    line-height: 100px; /* Vertically center the text */
+    margin: 10px 0; /* Add margin for spacing */
+}
+
+/* Style the headings for the left column (Snacks and Breads) */
+h2:nth-child(odd) {
+    padding: 10px; /* Add some padding for spacing */
+}
+
+/* Style the headings for the right column (Main Course and Beverages) */
+h2:nth-child(even) {
+    padding: 10px; /* Add some padding for spacing */
+}
+
+/* Style the menu items and images for the left column (Snacks and Breads) */
+ul:nth-child(odd) {
+    width: 20px;
+    padding: 10px; /* Add padding to separate items */
+    margin: 10px 0; /* Add margin to space out menu sections */
+    list-style-type: none; /* Remove list bullets */
+}
+
+/* Style the menu items and images for the right column (Main Course and Beverages) */
+ul:nth-child(even) {
+    padding: 10px; /* Add padding to separate items */
+    margin: 10px 0; /* Add margin to space out menu sections */
+    list-style-type: none; /* Remove list bullets */
+}
+
+/* Style images within menu items */
+li img {
+    max-width: 50px; /* Decrease image width to 50px */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add some spacing between the image and text */
+    border-radius: 50%; /* Make the images circular */
+}

@@ -3,7 +3,7 @@
     font-family: merienda;
 }
 body {
-    background-image: url('WhatsApp\ Image\ 2023-10-24\ at\ 15.15.53.jpeg');
+    background-image: url('faq\ background.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -45,3 +45,24 @@ p{
 .background-image{
     color: white;
 }
+header {
+    color: white;
+    border-bottom: 2px solid #ca0000;
+    width: 90%;
+    display: flex;
+    flex-direction: column; /* Center header content vertically */
+    text-align: center;
+    z-index: 2;
+  }
+  
+  .links a {
+    color: white; /* Set the text color to white */
+    text-decoration: none; /* Remove underline */
+  }
+  .link {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+  }
