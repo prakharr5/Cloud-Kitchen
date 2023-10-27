@@ -1,0 +1,68 @@
+#heading1{
+    text-align:center;
+    font-family: merienda;
+}
+body {
+    background-image: url('faq\ background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.rectangle {
+    width: 95%; /* Increase the width of the rectangle to 90% */
+    max-width: 1100px; /* Set a maximum width to ensure it doesn't become too wide */
+    height: auto; /* Allow the height to adjust based on content */
+    flex-shrink: 0;
+    border-radius: 29px;
+    background: #000; /* A deeper shade of black for the background */
+    mix-blend-mode: soft-light;
+    box-shadow: 0px 4px 100px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    position: relative;
+    color: #FFF; /* Text color is white */
+    padding: 20px; /* Add some padding to the rectangle for better text spacing */
+}
+
+.background-text {
+    font-family: Inter;
+    font-size: 24px; /* Adjust the font size as needed */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+    color: white; /* Keep the text color as white for brighter text */
+    
+}
+p{
+    color: white;
+}
+.background-image{
+    color: white;
+}
+header {
+    color: white;
+    border-bottom: 2px solid #ca0000;
+    width: 90%;
+    display: flex;
+    flex-direction: column; /* Center header content vertically */
+    text-align: center;
+    z-index: 2;
+  }
+  
+  .links a {
+    color: white; /* Set the text color to white */
+    text-decoration: none; /* Remove underline */
+  }
+  .link {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+  }

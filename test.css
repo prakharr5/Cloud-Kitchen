@@ -1,0 +1,73 @@
+/* Header styles */
+header {
+  color: white;
+  border-bottom: 2px solid #ca0000;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  z-index: 2;
+  background: #000;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+}
+
+.link {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+/* Menu styles */
+h1 {
+  text-align: center;
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 15px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+}
+
+ul li {
+  width: calc(33.33% - 20px); /* Adjust the width as needed */
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50%; /* Make it circular */
+  /* Add a red border */
+  overflow: hidden; /* Hide overflowing text */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+ul li img {
+  max-width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Keep the image circular */
+  border: 3px solid red;
+}
+
+ul li p {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Adjust styling as needed */
