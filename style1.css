@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;  Vertically center the content */
+    align-items: center;
+    /*overflow: hidden;*/
+    color: white;
+    padding:0;
+    position:relative;
+    overflow: hidden;
+  }
+  p {
+    margin:10px;
+    padding: 0;
+    color: white;
+    width: 300px;
+    height: 40px;
+    color: #FFF;
+    text-shadow: 0px 4px 100px rgba(255, 4, 4, 0.25);
+    font-family: 'Merienda', cursive;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-left: -80px;
+  }
+  header {
+    color: white;
+    border-bottom: 2px solid #ca0000;
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Center header content vertically */
+    text-align: center;
+    z-index: 2;
+    padding:10px;
+    background-color: black;
+
+  }
+  
+  .links a {
+    color: white; /* Set the text color to white */
+    text-decoration: none; /* Remove underline */
+  }
+  .link {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+  }
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+ 
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin:960px;
+    margin:0 auto;
+    overflow: hidden;
+  }
+
+  .imghiw {
+    position: fixed;
+    top: 0; /* Align to the top of the page */
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    align-items: center;
+    overflow: hidden;
+  }
+  .imghiw img {
+    width: 1250px;
+    height: 1000px;
+    flex-shrink: 0;
+  }
+  .lastline p {
+    margin-bottom: 20px; /* Add space after the "select your plan" link */
+  }
+  
+  .lastline a {
+    color: white; /* Set the text color to white */
+    text-decoration: none;
+  }
+  .rectangle {
+    background-color: black;
+    width: 60%;
+    height: 40%;
+    align-items: center;
+    z-index: 2;
+    margin-top: 10%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px rgb(255, 255, 255);
+  }
+
+ 
+ 
+  .line6{
+    width: 642.012px;
+height: 0.024px;
+transform: rotate(90deg);
+flex-shrink: 0;
+stroke-width: 2px;
+stroke: #CA0000;
+  }
+  .ellipse17{
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 50%;
+border: 5px solid #CA0000;
+background: lightgray 50% ;
+z-index:2;
+position: absolute;
+top: 516px;
+left: 200px;
+background-attachment: fixed;
+margin-top:-220px;
+  }
+  .ellipse17 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    flex-shrink:0;
+    object-fit: cover; /* Ensure the image covers the ellipse */
+    z-index:2;
+    top: 516px;
+    left: 200px;
+    
+  }
+  .ellipse18{
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 50%;
+border: 5px solid #CA0000;
+background: lightgray 50% ;
+z-index:2;
+position: absolute;
+top: 516px;
+left: 550px;
+background-attachment: fixed;
+margin-top:-220px;
+  }
+  .ellipse18 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    flex-shrink:0;
+    object-fit: cover; /* Ensure the image covers the ellipse */
+    z-index:2;
+    
+    top: 516px;
+    left: 550px;
+  }
+  .ellipse19{
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 50%;
+border: 5px solid #CA0000;
+background: lightgray 50% ;
+z-index:2;
+position: absolute;
+top: 516px;
+left: 870px;
+background-attachment: fixed;
+margin-top:-220px;
+  }
+  .ellipse19 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    flex-shrink:0;
+    object-fit: cover; /* Ensure the image covers the ellipse */
+    z-index:2;
+    
+    top: 516px;
+    left: 870px;
+  }
+  
+
+.image-box {
+    text-align: center;
+    margin: 10px; /* Adjust the margin as needed for spacing */
+}
+
+.image-box img {
+    max-width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    background: lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 100px 0px rgba(113, 0, 0, 0.25);
+    width: 274px;
+    margin: 10px;
+    top: 692px;
+    left:246px;
+}
+
+.image-box p {
+    width: 274px;
+    color: #FFF;
+    text-shadow: 0px 4px 100px rgba(255, 4, 4, 0.25);
+    font-family: 'Merienda', cursive;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40.43px;
+    text-align: left;
+    margin: 0 px ; /* Adjust the margin for vertical spacing */
+    position: absolute;
+    top: 692px;
+    left:246px;
+
+}
+.red-line {
+    width: 2px; /* Adjust the width of the line */
+    height: 50%; /* Make the line span the full height of the viewport */
+    background: red;
+    position: absolute;
+    margin-top:36%;
+    margin-left:30%;
+    z-index:2;
+    margin-top:220px;
+}
+.red-line2 {
+    width: 2px; /* Adjust the width of the line */
+    height: 50%; /* Make the line span the full height of the viewport */
+    background: red;
+    position: absolute;
+    margin-top:36%;
+    margin-right:28%;
+    z-index:2;
+    margin-top:220px;
+}
+.rectangle33 {
+  width: 1200;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 35px;
+  background:rgb(27, 26, 26) 50% / cover no-repeat;
+  z-index: 1;
+  mix-blend-mode: darken;
+  box-shadow: 0px 4px 100px 0px #000;
+  background-attachment: fixed;
+  top: 351px;
+}
+.red-button {
+  background-color: red;
+  color: #FFF;
+text-align: center;
+font-family: Karma;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  z-index:1;
+  width: 200px;
+height: 20px;
+top: 900px;
+left: 600px;
+margin-top:-110px;
+}
+.red-button:hover {
+  background-color: darkred; /* Change the background color on hover */
+}
+.red-button:active {
+  transform: scale(0.95); /* Scale down the button when clicked */
+  transition: transform 0.2s; /* Add a smooth transition effect */
+}
+.animate-link:hover {
+  color: red; /* Change the text color on hover */
+}
+
+
+
+
+
+
+
